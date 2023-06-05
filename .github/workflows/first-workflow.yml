@@ -10,6 +10,6 @@ jobs:
        runs-on: ubuntu-latest
        steps:
         - name: Print Greeting
-          run: echo "Hello World"
-        - name: Print Message
-          run: echo "Hi"
+          run: |
+            echo "Hello World"
+            echo "This is the second line!"
